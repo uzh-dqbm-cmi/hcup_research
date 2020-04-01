@@ -25,8 +25,8 @@ def generate_elms_info(elm_desc):
 # NRD Core database
 NRDCore_namedesc = [("age", 0, "Age in years at admission","int32"),
                     ("aweekend", 0, "Admission day is a weekend","int32"),
-                    ("died", 0, "Died during hospitalization","int32"),
-                    ("discwt", 0, "Weight to discharges in AHA universe","int32"),
+                    ("died", 0, "Died during hospitalization","float64"),
+                    ("discwt", 0, "Weight to discharges in AHA universe","float64"),
                     ("dispuniform", 0, "Disposition of patient (uniform)","int32"),
                     ("dmonth", 0, "Discharge month","int32"),
                     ("dqtr", 0, "Discharge quarter","int32"),
