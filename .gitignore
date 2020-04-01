@@ -1,3 +1,11 @@
 .DS_Store
 ijupyter.log
+
+.ipynb_checkpoints
+__pycache__
+
+dataset/
+dataset_neural/
 env/
+hyperparam_optimz_models/
+missing_analysis/
